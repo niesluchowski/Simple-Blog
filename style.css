@@ -79,7 +79,7 @@ article{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 110vh;
+    height: 95vh;
     
 }
 #articleswrapper{
@@ -127,6 +127,28 @@ article{
     object-fit: cover;
 
 }
+#pageslider{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 100%;
+    height: 12vh;
+}
+#pageslider h6{
+    width: fit-content;
+    color: #7f7f7f;
+    font-weight: 500;
+    font-style: italic;
+}
+#pagesliderwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    gap: 15px;
+}
+
 footer{
     border-top: #909090 1px solid;
     width: 100%;
